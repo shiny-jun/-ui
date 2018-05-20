@@ -1,0 +1,69 @@
+/* pages/list/list.wxss */
+
+page {
+  background-color: rgba(46, 113, 106, 0.7);
+  min-height: 100%;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: #2c6760 url('https://cloud-minapp-14328.cloud.ifanrusercontent.com/1fKCyfurTOKAQZSs.jpg') 0 0 no-repeat;
+  background-size: 750rpx 100%;
+  opacity: 0.4;
+}
+.close{
+  position: absolute;
+  top:20rpx;
+  left: 20rpx;
+}
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600rpx;
+  background-color: #5dafaf;
+  min-height: 100%;
+  opacity: 1;
+}
+
+.user {
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  align-items: center;
+  color: #fff;
+  font-size: 30rpx;
+}
+.user:last-child{
+  bottom: 0;
+}
+.ranking {
+  width: 10%;
+  padding-left: 30rpx;
+}
+
+.head {
+  width: 20%;
+  padding-top: 10px;
+}
+
+.head_icon {
+  border-radius: 60rpx;
+}
+
+.message {
+  width: 50%;
+  padding-left: 30rpx;
+}
+
+.weight {
+  width: 20%;
+  text-align: right;
+  padding-right: 20rpx;
+}
+
+.scroll-view_H {
+  height: 100vh;
+  white-space: nowrap;
+}

@@ -1,0 +1,19 @@
+<!--pages/list/list.wxml-->
+<view class='background'></view>
+<view class='close'><image src='../../images/close.png' mode='widthFix' style='width:36rpx;'></image></view>
+<view class='content'>
+  <scroll-view class='scroll-view_H' scroll-y>
+    <view class='user scroll-view-item_H' wx:for="{{users}}" wx:key="unique" wx:for-item="user">
+      <view class='ranking'>{{index+1}}</view>
+      <view class='head'>
+        <image src='{{user.image}}' mode='widthFix' style='width:120rpx;' class='head_icon'></image>
+      </view>
+      <view class='message'>
+        <view class='name'>{{user.name}}</view>
+        <view class='energy'>能量值：{{user.energy}}%</view>
+      </view>
+      <view class='weight'>{{user.weight}}kg</view>
+    </view>
+  </scroll-view>
+
+</view>

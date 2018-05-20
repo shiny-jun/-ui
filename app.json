@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/message/message",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#aff1fd",
+    "navigationBarTitleText": "云肉肉",
+    "navigationBarTextStyle":"black"
+  }
+}

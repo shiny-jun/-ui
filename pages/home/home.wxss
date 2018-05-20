@@ -1,0 +1,78 @@
+/* pages/home/home.wxss */
+/* @import '../message/message.wxss'; */
+page {
+  min-height: 100%;
+   background: #aff1fd url('https://cloud-minapp-14328.cloud.ifanrusercontent.com/1fKCyfurTOKAQZSs.jpg') 0 0 no-repeat;
+  background-size: 750rpx 100%;
+}
+.content{
+  /* display: none; */
+  min-height: 100%;
+}
+.point{
+  width: 100vw;
+  text-align: center;
+  font-size: 30rpx;
+  color: #2e716a;
+  padding-top: 20rpx;
+}
+.regulation{
+  position: absolute;
+  top: 20rpx;
+  right: 40rpx;
+}
+.energy_message{
+  position: absolute;
+  bottom: 40rpx;
+  left: 40rpx;
+}
+.energy_icon {
+  background-color: #b7dd7a;
+  padding: 20rpx;
+  border-radius: 50rpx;
+}
+.water {
+  display: flex;
+  position: absolute;
+  bottom: 40rpx;
+  left: 160rpx;
+  align-items: center;
+  height: 120rpx;
+}
+
+.condition {
+  font-size: 30rpx;
+  color: white;
+}
+
+.plant {
+  position: absolute;
+  top: 500rpx;
+  left: 170rpx;
+}
+
+.users {
+  position: absolute;
+  right: 40rpx;
+  bottom: 40rpx;
+}
+
+.user_icon {
+  background-color: #f9a934;
+  padding: 20rpx;
+  border-radius: 50rpx;
+}
+
+.box-shadow {
+  /* -webkit-box-shadow: 2px 2px 2px #ab7931;  
+  -moz-box-shadow: 2px 2px 2px #ab7931;   */
+  box-shadow: 2px 2px 2px #ab7931;
+}
+.box-shadow1{
+  box-shadow: 2px 2px 2px #98b767;  
+}
+.scroll-view-item_H {
+  text-align: center;
+  height: 47px;
+  line-height: 45px;
+}

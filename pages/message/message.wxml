@@ -1,0 +1,24 @@
+<!--pages/message/message.wxml-->
+
+<view class='background'></view>
+<view class='close'>
+  <image src='../../images/close.png' mode='widthFix' style='width:36rpx;'></image>
+</view>
+<view class='content'>
+  <scroll-view class='scroll-view_H' scroll-y>
+    <view class='log' wx:for="{{logs}}" wx:key="unique">
+      <view class='date'>{{item.date}}</view>
+      <view class='message'>
+        <view class='message-item' wx:for="{{item.messages}}" wx:key="unique2" wx:for-item="message">
+          <view class='type'>
+            <image src='../../images/pinch2.png' mode='widthFix' style='width:50rpx;'></image>
+          </view>
+          <view class='name'>
+            <text>{{message.name}}</text>收取了{{message.getWeight}}g</view>
+          <view class='time'>{{message.hour}}:{{message.minute}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+

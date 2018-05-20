@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<view class='content'>
+  <view class='point'>积分：300</view>
+  <view class='regulation'>
+    <image src='../../images/regulation.png' mode='widthFix' style='width:50rpx;' class='regulation_icon'></image>
+  </view>
+  <view class="energy_message">
+    <image src='../../images/message.png' mode='widthFix' style='width:60rpx;' class='energy_icon box-shadow1'></image>
+  </view>
+  <view class='water'>
+    <image src='../../images/water.png' mode='widthFix' style='width:100rpx;'></image>
+    <view class='condition'>
+      <view>100%</view>
+      <view>容量:30g</view>
+    </view>
+  </view>
+  <view class='plant'>
+    <image src='../../images/rourou.png' mode='widthFix' style='width:400rpx;'></image>
+  </view>
+  <view class='users'>
+    <image src='../../images/users.png' mode='widthFix' style='width:60rpx;' class='user_icon box-shadow'></image>
+  </view>
+</view>
